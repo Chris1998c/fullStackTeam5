@@ -11,7 +11,7 @@ const team = [ {
     favoriteBook: "L'arte di amare",
     petName: "Coco",
 } ,
-
+{
     name: "Sviatoslav",
     surname: "Larionov",
     age: 19,
@@ -22,17 +22,19 @@ const team = [ {
     favoriteFilm: "Batman",
     favoriteBook: "Demian",
     petName: "",
-    },
-    {
-    name = "Vincenzo",
-    surname = "Federico",
-    age = 28,
-    city = "Palermo",
-    hobby = "calcio",
-    favoriteFood = "pasta",
-    favoriteVideoGame = "Diablo",
-    favoriteFilm = "Limitless",
-    favoriteBook = "HarryPotter",
-    petName = "Argo",
-} ];
+} ,
+{
+    name: "Vincenzo",
+    surname: "Federico",
+    age: 28,
+    city: "Palermo",
+    hobby: "calcio",
+    favoriteFood: "pasta",
+    favoriteVideoGame: "Diablo",
+    favoriteFilm: "Limitless",
+    favoriteBook: "HarryPotter",
+    petName: "Argo",
+} 
+
+];
 
