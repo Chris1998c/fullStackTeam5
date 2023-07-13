@@ -11,20 +11,14 @@ const team = [ {
     petName: "",
     },
     {
-    name = "Vincenzo",
-    surname = "Federico",
-    age = 28,
-    city = "Palermo",
-    hobby = "calcio",
-    favoriteFood = "pasta",
-    favoriteVideoGame = "Diablo",
-    favoriteFilm = "Limitless",
-    favoriteBook = "HarryPotter",
-    petName = "Argo",
+    name: "Vincenzo",
+    surname: "Federico",
+    age: 28,
+    city: "Palermo",
+    hobby: "calcio",
+    favoriteFood: "pasta",
+    favoriteVideoGame: "Diablo",
+    favoriteFilm: "Limitless",
+    favoriteBook: "HarryPotter",
+    petName: "Argo",
 } ];
-
-
-
-
-
->>>>>>> 4f6a970125248779bb2899a0475ede7920334764
