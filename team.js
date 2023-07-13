@@ -1,5 +1,5 @@
 const team = [ {
-<<<<<<< HEAD
+
     name: "Curtis",
     surname: "Ducasse",
     age: 24,
@@ -11,7 +11,7 @@ const team = [ {
     favoriteBook: "L'arte di amare",
     petName: "Coco",
 } ,
-=======
+
     name: "Sviatoslav",
     surname: "Larionov",
     age: 19,
@@ -40,5 +40,4 @@ const team = [ {
 
 
 
->>>>>>> 4f6a970125248779bb2899a0475ede7920334764
->>>>>>> eb33af15a146ede18d7d57fbdbf4e7aab408443b
+
