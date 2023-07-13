@@ -1,4 +1,5 @@
 const team = [ {
+<<<<<<< HEAD
 
     name: "Curtis",
     surname: "Ducasse",
@@ -34,6 +35,18 @@ const team = [ {
     favoriteFilm = "Limitless",
     favoriteBook = "HarryPotter",
     petName = "Argo",
+=======
+    name = "Alessio"
+    surname = "Natale"
+    age = 23
+    city = "Avellino"
+    hobby = "calcio"
+    favoriteFood = "pasta"
+    favoriteVideoGame = "Minecraft"
+    favoriteFilm = "prova a prendermi"
+    favoriteBook = "HarryPotter"
+    petName = "pippo"
+>>>>>>> alessio
 } ];
 
 
