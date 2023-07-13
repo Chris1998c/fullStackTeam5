@@ -1,14 +1,14 @@
 const team = [ {
-    name = "Vincenzo"
-    surname = "Federico"
-    age = 28
-    city = "Palermo"
+    name = "Alessio"
+    surname = "Natale"
+    age = 23
+    city = "Avellino"
     hobby = "calcio"
     favoriteFood = "pasta"
-    favoriteVideoGame = "Diablo"
-    favoriteFilm = "Limitless"
+    favoriteVideoGame = "Minecraft"
+    favoriteFilm = "prova a prendermi"
     favoriteBook = "HarryPotter"
-    petName = "Argo"
+    petName = "pippo"
 } ];
 
 
