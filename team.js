@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const team = [
     {
         name : "Alessio",
@@ -47,12 +47,9 @@ const team = [
     favoriteFilm: "Limitless",
     favoriteBook: "HarryPotter",
     petName: "Argo",
-} ];
+} 
 
-
-=======
-
-const team = [{
+{
     name: "Christian",
     surname:"Conte",
     age:"24",
@@ -64,4 +61,3 @@ const team = [{
     favoriteBook: "HarryPotter",
     petName: "",
 }
->>>>>>> christian
