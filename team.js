@@ -10,3 +10,12 @@ const team = [ {
     favoriteBook: "Demian",
     petName: "",
 } ];
+
+function havePet(team) {
+    team.forEach(i => {
+        if (i.petName.length>0) {
+            console.log(i.name + " has a pat named " + i.petName)
+        }
+        
+    });
+}
