@@ -10,4 +10,15 @@ const team = [{
     favoriteFilm: "HarryPotter",
     favoriteBook: "HarryPotter",
     petName: "",
+}]
+
+/*funzione christian*/
+let sumAge = 0;
+for (let i = 0; i < team.length; i++) {
+    sumAge += team[i].age;
 }
+
+const averageAge = sumAge / team.length;
+console.log("Team middle age: " + averageAge);
+
+/*fine funzione christian*/
