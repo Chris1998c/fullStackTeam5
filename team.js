@@ -11,7 +11,9 @@ const team = [
         favoriteFilm : "prova a prendermi",
         favoriteBook : "HarryPotter",
         petName : "pippo"
-    }, {
+    }, 
+    
+{
 
     name: "Curtis",
     surname: "Ducasse",
@@ -60,4 +62,4 @@ const team = [
     favoriteFilm: "HarryPotter",
     favoriteBook: "HarryPotter",
     petName: "",
-}
+} ] 
