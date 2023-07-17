@@ -13,23 +13,23 @@ const team = [ {
 
 
 function findMembersWithSameName(teamArray) {
-    let duplicateNames = [];
-  
-    for (let i = 0; i < teamArray.length; i++) {
-      for (let j = i + 1; j < teamArray.length; j++) {
-        if (teamArray[i].name === teamArray[j].name && !duplicateNames.includes(teamArray[i].name)) {
-          duplicateNames.push(teamArray[i].name);
-        }
-      }
+  let duplicateNames = [];
+  let singleNames = [];
+
+  for (let i = 0; i < teamArray.length; i++) {
+    if (!singleNames.includes(teamArray[i].name)) {
+      singleNames.push(teamArray[i].name);
+    } else {
+      duplicateNames.push(teamArray[i].name);
     }
-  
-    return duplicateNames;
   }
 
-  let duplicateNames = findMembersWithSameName(team);
-  
-  console.log("Duplicate names:");
-  console.log(duplicateNames);
-  
+  return duplicateNames;
+}
+
+let duplicateNames = findMembersWithSameName(team);
+
+console.log("Duplicate names:");
+console.log(duplicateNames); 
 
 
