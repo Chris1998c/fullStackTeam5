@@ -11,6 +11,15 @@ const team = [ {
     petName : "pippo"
 } ];
 
+function printTeamInAgeOrder(team) {
+    
+    team.sort((a, b) => a.age - b.age);
+  
+   for (const member of team) {
+      console.log(`${member.name} ${member.age}`);
+    }
+  }
+  
 
 
 
