@@ -49,8 +49,7 @@ const team = [
     favoriteFilm: "Limitless",
     favoriteBook: "HarryPotter",
     petName: "Argo",
-} 
-
+},
 {
     name: "Christian",
     surname:"Conte",
