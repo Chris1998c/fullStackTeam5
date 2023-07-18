@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 const team = [
 {
@@ -25,7 +24,6 @@ const team = [
     favoriteFilm: "Memento",
     favoriteBook: "L'arte di amare",
     petName: "Coco",
-<<<<<<< HEAD
 } ,
 {
     name: "Sviatoslav",
@@ -51,10 +49,7 @@ const team = [
     favoriteBook: "HarryPotter",
     petName: "Argo",
 },
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/sven
 {
     name: "Christian",
     surname:"Conte",
@@ -66,25 +61,8 @@ const team = [
     favoriteFilm: "HarryPotter",
     favoriteBook: "HarryPotter",
     petName: "",
-<<<<<<< HEAD
-}]
-=======
-const team = [ {
-    name: "Vincenzo"
-    surname: "Federico"
-    age: 28
-    city: "Palermo"
-    hobby: "calcio"
-    favoriteFood: "pasta"
-    favoriteVideoGame: "Diablo"
-    favoriteFilm: "Limitless"
-    favoriteBook: "HarryPotter"
-    petName: "Argo"
-} ];
+}];
 
-<<<<<<< HEAD
->>>>>>> origin/Vincenzo
-=======
 function printTeamInAgeOrder(team) {
     
     team.sort((a, b) => a.age - b.age);
@@ -94,15 +72,13 @@ function printTeamInAgeOrder(team) {
     }
   }
   
->>>>>>> origin/Alessio
-
-<<<<<<< HEAD
-
 let sumAge = 0;
 for (let i = 0; i < team.length; i++) {
     sumAge += team[i].age;
 }
-=======
+
+
+
 function findMembersWithSameName(teamArray) {
   let duplicateNames = [];
   let singleNames = [];
@@ -122,12 +98,11 @@ let duplicateNames = findMembersWithSameName(team);
 
 console.log("Duplicate names:");
 console.log(duplicateNames); 
->>>>>>> origin/Vincenzo
+
 
 const averageAge = sumAge / team.length;
 console.log("Team middle age: " + averageAge);
 
-=======
 } ];
 
 function printLeaguePlayer () {
@@ -136,8 +111,7 @@ function printLeaguePlayer () {
     ? console.log(team[i].name+" plays "+team[i].favoriteVideoGame):console.log()
     }}
     printLeaguePlayer()
->>>>>>> origin/Curtis
-=======
+
 } ] 
 
 function havePet(team) {
@@ -148,4 +122,4 @@ function havePet(team) {
         
     });
 }
->>>>>>> origin/sven
+
