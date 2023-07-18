@@ -78,11 +78,33 @@ const team = [ {
 
 >>>>>>> origin/Vincenzo
 
+<<<<<<< HEAD
 
 let sumAge = 0;
 for (let i = 0; i < team.length; i++) {
     sumAge += team[i].age;
 }
+=======
+function findMembersWithSameName(teamArray) {
+  let duplicateNames = [];
+  let singleNames = [];
+
+  for (let i = 0; i < teamArray.length; i++) {
+    if (!singleNames.includes(teamArray[i].name)) {
+      singleNames.push(teamArray[i].name);
+    } else {
+      duplicateNames.push(teamArray[i].name);
+    }
+  }
+
+  return duplicateNames;
+}
+
+let duplicateNames = findMembersWithSameName(team);
+
+console.log("Duplicate names:");
+console.log(duplicateNames); 
+>>>>>>> origin/Vincenzo
 
 const averageAge = sumAge / team.length;
 console.log("Team middle age: " + averageAge);
