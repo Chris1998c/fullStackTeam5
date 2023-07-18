@@ -25,6 +25,7 @@ const team = [
     favoriteFilm: "Memento",
     favoriteBook: "L'arte di amare",
     petName: "Coco",
+<<<<<<< HEAD
 } ,
 {
     name: "Sviatoslav",
@@ -109,3 +110,13 @@ console.log(duplicateNames);
 const averageAge = sumAge / team.length;
 console.log("Team middle age: " + averageAge);
 
+=======
+} ];
+
+function printLeaguePlayer () {
+    for ( i=0; i<team.length;i++)
+    {team[i].favoriteVideoGame=="League of Legends" 
+    ? console.log(team[i].name+" plays "+team[i].favoriteVideoGame):console.log()
+    }}
+    printLeaguePlayer()
+>>>>>>> origin/Curtis
