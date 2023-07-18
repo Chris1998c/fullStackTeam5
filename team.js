@@ -103,7 +103,6 @@ console.log(duplicateNames);
 const averageAge = sumAge / team.length;
 console.log("Team middle age: " + averageAge);
 
-} ];
 
 function printLeaguePlayer () {
     for ( i=0; i<team.length;i++)
@@ -112,7 +111,6 @@ function printLeaguePlayer () {
     }}
     printLeaguePlayer()
 
-} ] 
 
 function havePet(team) {
     team.forEach(i => {
