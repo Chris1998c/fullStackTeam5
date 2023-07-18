@@ -51,6 +51,10 @@ const team = [
     favoriteBook: "HarryPotter",
     petName: "Argo",
 },
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/sven
 {
     name: "Christian",
     surname:"Conte",
@@ -62,6 +66,7 @@ const team = [
     favoriteFilm: "HarryPotter",
     favoriteBook: "HarryPotter",
     petName: "",
+<<<<<<< HEAD
 }]
 =======
 const team = [ {
@@ -120,3 +125,15 @@ function printLeaguePlayer () {
     }}
     printLeaguePlayer()
 >>>>>>> origin/Curtis
+=======
+} ] 
+
+function havePet(team) {
+    team.forEach(i => {
+        if (i.petName.length>0) {
+            console.log(i.name + " has a pat named " + i.petName)
+        }
+        
+    });
+}
+>>>>>>> origin/sven
