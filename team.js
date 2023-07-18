@@ -82,7 +82,19 @@ const team = [ {
     petName: "Argo"
 } ];
 
+<<<<<<< HEAD
 >>>>>>> origin/Vincenzo
+=======
+function printTeamInAgeOrder(team) {
+    
+    team.sort((a, b) => a.age - b.age);
+  
+   for (const member of team) {
+      console.log(`${member.name} ${member.age}`);
+    }
+  }
+  
+>>>>>>> origin/Alessio
 
 <<<<<<< HEAD
 
