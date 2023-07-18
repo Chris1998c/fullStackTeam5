@@ -69,8 +69,9 @@ function printTeamInAgeOrder(team) {
   
    for (const member of team) {
       console.log(`${member.name} ${member.age}`);
-    }
+    } 
   }
+  printTeamInAgeOrder(team)
   
 let sumAge = 0;
 for (let i = 0; i < team.length; i++) {
@@ -116,8 +117,10 @@ function havePet(team) {
     team.forEach(i => {
         if (i.petName.length>0) {
             console.log(i.name + " has a pat named " + i.petName)
-        }
+        } 
         
     });
-}
+} 
+havePet(team)
+
 
